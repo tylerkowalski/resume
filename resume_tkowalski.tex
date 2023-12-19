@@ -1,0 +1,323 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Tyler Kowalski} \\ \vspace{1pt}
+    \bigskip 
+    \small \raisebox{-0.1\height}\faPhone\ 1(647)761-4666 ~ \href{mailto:tkowalsk@uwaterloo.ca}{\raisebox{-0.2\height}\faEnvelope\  \underline{tkowalsk@uwaterloo.ca}} ~ 
+    \href{https://www.linkedin.com/in/tyler-kowalski-a51226212//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/tyler-kowalski-a51226212/}}  ~
+    \href{https://github.com/tkowalski9938}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/tkowalski9938}}  ~ \\
+    \href{https://tkowalski.ca}{\raisebox{-0.2\height}\faGlobe\  \underline{tkowalski.ca}} ~
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: C, C++, GLSL, Python, Agda, Racket, LaTeX, HTML/CSS, Bash} \\
+     \textbf{Linguistic Languages}{: English (Native), Mandarin (Conversational), Japanese (Elementary)} \\
+     \textbf{Developer Tools}{: VS Code, Visual Studio, Git, Juypter Notebook, Google Collab, Vim, JIRA} \\
+     \textbf{Technologies/Frameworks}{: Vulkan, Pytorch, TensorFlow, NumPy, OpenCV, Pandas, Scikit-Learn, Matplotlib} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Waterloo}{Sep. 2021 - Apr. 2026}{Bachelor of Mathematics in Computer Science, CS Avg. 92.33\%}{Waterloo, Canada}
+\resumeSubHeadingListEnd
+% \textbf{University of Waterloo} \hfill \textbf{Sep. 2021 - Dec 2025} \\
+% \small \emph{Bachelor of Computer Science} \hfill \emph{Waterloo, Canada}
+% \normalsize
+
+%   \medskip \\
+%   \textbf{DeepLearning.AI}
+%   \begin{itemize}
+%       \item \small \emph{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization} \hfill \normalsize \textbf{Sep. 2021}
+%       \item \small \emph{Neural Networks and Deep Learning} \normalsize \hfill \textbf{Aug. 2021}
+%   \end{itemize}
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+\section{Professional Development (Online Courses)}
+\resumeSubHeadingListStart
+% \resumeSubheading{DeepMind x UCL}{Aug. 2022}{Reinforcement Learning}{}
+\resumeSubheading
+{DeepLearning.AI}{Sep. 2021}{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization}{}
+\resumeSubHeadingListEnd
+
+% -----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+%   \resumeSubheading
+%   {Tetris AI}{Dec. 2021}
+%   {Neural Network Learning Tetris at Masters Level}{}
+%   \resumeItemListStart
+%     \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
+%     \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
+%     \resumeItemListEnd
+\resumeSubheading
+{Core Avionics, Research and Innovation}{Jan. 2023 - Apr. 2023}
+{Embedded ML/AI Developer}{}
+\resumeItemListStart
+  \resumeItem{Overhauled Core Avionics' safety-critical neural network inference engine to support multiple execution branches with emphasis on GPU parallelization and optimizing CPU-GPU synchronization in \textbf{Vulkan}}
+  \resumeItem{Re-engineered NNEF \textbf{compiler} for inference engine to support multiple execution branches on a team of 2 co-op students}
+  \resumeItem{Wrote efficient \textbf{GLSL} shaders to do \textit{Local Response Normalization, Concat, addN,} and \textit{maxPool2d} with data packing}
+  \resumeItem{Added support for \textit{AlexNet, DenseNet, ResNet,} and \textit{InceptionNet} to neural network inference engine and debugged using \textbf{Pytorch}}
+\resumeItemListEnd    
+
+
+    \resumeSubheading
+      {Core Avionics, Research and Innovation}{May. 2022 - Aug. 2022}
+      {Embedded ML/AI Developer}{}
+      \resumeItemListStart
+        \resumeItem{Reverse engineered \textbf{Pytorch} \textit{MobileNetV2SSDLite} model and ported it to safety-crtical \textbf{Vulkan} using \textbf{C}, demoed at a trade conference}
+        \resumeItem{Designed and optimized compute shaders in \textbf{GLSL} to do \textit{softmax, leakyReLu, convTranspose2d, padding,} and various \textit{Blas} functions with data packing, with similar if not better performance than \textit{Pytorch}}
+        % \resumeItem{Expanded Core Avionics' safety-critical neural network inference engine to be compatible with Khronos' \textit{NNEF} specification}
+        \resumeItem{Indvidually led research on segmented inference of CNNs to reduce memory cost on embedded systems}
+      \resumeItemListEnd    
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Side Projects}
+  \resumeSubHeadingListStart
+
+%   \resumeSubheading
+%   {Tetris AI}{Dec. 2021}
+%   {Neural Network Learning Tetris at Masters Level}{}
+%   \resumeItemListStart
+%     \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
+%     \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
+%     \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {UTinder}{Sep. 2021}
+    %   {Computer Vision Project for Hack the North}{}
+    %   \resumeItemListStart
+    %     \resumeItem{Developed a convolutional neural network that rates the attractiveness of a user's Tinder profile using $\textbf{TensorFlow Keras}$ and $\textbf{Python}$}
+    %     \resumeItem{Implemented dropout and Adam optimization to reduce variance. Image normalizing layers were added within the model for ease of deployment}
+    %   \resumeItemListEnd
+
+      \resumeSubheading
+      {Stockshark}{Dec. 2022}
+      {Chess Application and Engine}{}
+      \resumeItemListStart
+        \resumeItem{Worked on a team of 3 to create a chess application in \textbf{C++} with \textbf{object-oriented} design patterns, where users could play against others and various AIs}
+        \resumeItem{Created a chess engine using a hand-crafted evaluation function and minimax with alpha-beta pruning, playing at $\approx 1000$ ELO}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Wellness Bot}{July 2021}
+      {NLP Project for Explore Hacks}{}
+      \resumeItemListStart
+        \resumeItem{Designed a bag-of-words model, using word embedding with $\textbf{Tensorflow Keras}$ and $\textbf{Python}$, that detects suicidal messages}
+        \resumeItem{Utilized L2 regularization and mini-batch gradient descent in training the model}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+\section{Relevant Coursework}
+\resumeSubHeadingListStart
+\resumeSubheading{CS 245E}{Dec. 2022}{Logic and Computation (Enriched)}{100\%}
+\resumeSubheading{CS 246}{Dec. 2022}{Object-Oriented Software Development (C++)}{96\%}
+\resumeSubHeadingListEnd
+
+\section{Volunteering}
+\resumeSubHeadingListStart
+\resumeSubheading{Mentouring the Stars}{Jan. 2023 - Present}{Providing no-cost academic support in mathematics for secondary students on Zoom}{}
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%     \vspace{-5pt}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
+%           \resumeItemListStart
+%             \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
+%             \resumeItem{Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.}
+%             \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
+%             \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
+%           \resumeItemListEnd
+%           \vspace{-13pt}
+%       \resumeProjectHeading
+%           {\textbf{Ticket Price Calculator App} $|$ \emph{Java, Android Studio}}{November 2020}
+%           \resumeItemListStart
+%             \resumeItem{Created an Android application using Java and Android Studio to calculate ticket prices for trips to museums in NYC.}
+%             \resumeItem{Processed user inputted information in the back-end of the app to return a subtotal price based on the tickets selected.}
+%             \resumeItem{Utilized the layout editor to create a UI for the application in order to allow different scenes to interact with each other.}
+%           \resumeItemListEnd 
+%           \vspace{-13pt}
+%           \resumeProjectHeading
+%           {\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{October 2020}
+%           \resumeItemListStart
+%             \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
+%             \resumeItem{Used JavaFX to create a GUI that supports actions such as creating an account, deposit, withdraw, list all acounts, etc.}
+%             \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+%           \resumeItemListEnd 
+%     \resumeSubHeadingListEnd
+% \vspace{-15pt}
+
+
+%
+
+
+%-----------INVOLVEMENT---------------
+% \section{Awards / Extracurriculars}
+%     \resumeSubHeadingListStart
+
+%         \resumeSubheading{SLG Scholarship in Mathematics}{June 2021}{Regional Scholarship}{}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved highest top 6 average including 3 university math courses in York Region (rank 1 / 11, 081)}
+%             \resumeItemListEnd
+        
+
+%         \resumeSubheading{Governor General's Academic Award}{June 2021}{High School Award}{}
+%         \resumeItemListStart
+%             \resumeItem{Achieved highest grade 11 and 12 combined average in high school (rank 1 / 416)}
+%             \resumeItemListEnd
+            
+            
+
+
+%     \resumeSubHeadingListEnd
+
+
+\end{document}
+
