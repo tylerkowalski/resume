@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1705960068 "/Users/tkowalsk/Documents/resume/resume_tkowalski.tex" "/Users/tkowalsk/Documents/resume/resume_tkowalski.pdf" "resume_tkowalski" 1705960068
-  "/Users/tkowalsk/Documents/resume/resume_tkowalski.aux" 1705960068 1449 d0939075dff3c797f426e016bf8715fa ""
-  "/Users/tkowalsk/Documents/resume/resume_tkowalski.tex" 1705960067 14630 27324ceaefe9569140f36e7b6f9ac516 ""
+["pdflatex"] 1705978018 "/Users/tkowalsk/Documents/resume/resume_tkowalski.tex" "/Users/tkowalsk/Documents/resume/resume_tkowalski.pdf" "resume_tkowalski" 1705978032
+  "/Users/tkowalsk/Documents/resume/resume_tkowalski.aux" 1705978019 1449 d0939075dff3c797f426e016bf8715fa ""
+  "/Users/tkowalsk/Documents/resume/resume_tkowalski.tex" 1705978032 14630 b7919e259c054b2ec79c5f52019bb55b ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1585083055 2911 7adff171bd8c0a41152be2ab1520c87f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1585083055 3040 a74211a8f4718d9997628e5616b4ef48 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1585083055 2908 bac006be0510cadf4ac6d59a12fa262a ""
@@ -110,13 +110,13 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1640357303 2724747 a77d290838aab5fe68aa45d01d2a10fa ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "resume_tkowalski.aux" 1705960068 1449 d0939075dff3c797f426e016bf8715fa "pdflatex"
-  "resume_tkowalski.out" 1705960068 784 a09d0bc92fe67b9c5f0682b63e2cda95 "pdflatex"
-  "resume_tkowalski.tex" 1705960067 14630 27324ceaefe9569140f36e7b6f9ac516 ""
+  "resume_tkowalski.aux" 1705978019 1449 d0939075dff3c797f426e016bf8715fa "pdflatex"
+  "resume_tkowalski.out" 1705978019 784 a09d0bc92fe67b9c5f0682b63e2cda95 "pdflatex"
+  "resume_tkowalski.tex" 1705978032 14630 b7919e259c054b2ec79c5f52019bb55b ""
   (generated)
-  "/Users/tkowalsk/Documents/resume/resume_tkowalski.log"
-  "resume_tkowalski.log"
   "resume_tkowalski.aux"
-  "resume_tkowalski.out"
-  "/Users/tkowalsk/Documents/resume/resume_tkowalski.pdf"
   "resume_tkowalski.pdf"
+  "/Users/tkowalsk/Documents/resume/resume_tkowalski.pdf"
+  "resume_tkowalski.out"
+  "resume_tkowalski.log"
+  "/Users/tkowalsk/Documents/resume/resume_tkowalski.log"
