@@ -151,34 +151,36 @@
 %     \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
 %     \resumeItemListEnd
 
-\resumeSubheading{University of Waterloo, Faculty of Mathematics}{Sept. 2023 - Dec. 2023}{CS 246 Instructional Support Assistant (OOP in \textbf{C++})}{}
+\resumeSubheading{University of Waterloo, Faculty of Mathematics}{Sept. 2023 - Dec. 2023}{CS 246 TA (OOP in \textbf{C++})}{}
 \resumeItemListStart
-  \resumeItem{Migrated CS 246 sandbox environment from \textbf{C++14} to \textbf{C++20}}
+  \resumeItem{Migrated CS 246 \textbf{Linux} testing environment from \textbf{C++14} to \textbf{C++20}}
   \resumeItem{Developed all scripts for automatic testing of assignments via \textbf{Bash}}
   \resumeItem{Individually coordinated demoing and marking of the final project ($>$ 500 students)}
-  \resumeItem{Taught multiple tutorials and provided office hours each week to help students with \textbf{object-oriented programming} in \textbf{C++}}
+  \resumeItem{Taught weekly tutorials to help students with \textbf{object-oriented programming} in \textbf{C++}}
 \resumeItemListEnd
 
 
 \resumeSubheading
-{Core Avionics, Research and Innovation}{Jan. 2023 - Apr. 2023}
-{Embedded ML/AI Developer}{}
+{Core Avionics}{Jan. 2023 - Apr. 2023}
+{Embedded ML Inference Engineer}{}
 \resumeItemListStart
-  \resumeItem{Overhauled \textbf{GPU}-accelerated neural network inference engine to support multiple execution branches with emphasis on GPU parallelization and optimizing CPU-GPU synchronization in \textbf{Vulkan} using \textbf{C}}
-  \resumeItem{Re-engineered \textbf{NNEF compiler} for inference engine to support multiple execution branches on a team of 2 co-op students}
-  \resumeItem{Wrote efficient \textbf{GLSL} shaders to do \textit{Local Response Normalization, Concat, addN,} and \textit{maxPool2d} with data packing}
-  \resumeItem{Added support for \textit{AlexNet, DenseNet, ResNet, InceptionNet} and \textit{Graph Neural Networks} to neural network inference engine and debugged using \textbf{Pytorch}}
+ \resumeItem{Augmented ComputeCore\texttrademark, a safety-critical neural network inference engine for embedded GPUs, to support parallel inference of neural network inference graphs in \textbf{Vulkan C}}
+ \resumeItem{Analyzed \textbf{OpenVX} \& \textbf{MIGraphX} for inspiration in implementing safety-critical neural network inference engine}
+ \resumeItem{Refactored \textbf{NNEF compiler} to support multiple dependencies in inference graph}
+\resumeItem{Utilized A/B testing with \textbf{Python} scripting to design optimized \textbf{GLSL} shaders for \textbf{AMD E9171} embedded GPU: \textit{Local Response Normalization, Concat, addN,} and \textit{maxPool2d}}
+  \resumeItem{Added support for \textit{AlexNet, DenseNet, ResNet, InceptionNet} and \textit{Graph Neural Networks} to GPU-accelerated inference engine and debugged using \textbf{Pytorch}}
 \resumeItemListEnd    
 
 
     \resumeSubheading
-      {Core Avionics, Research and Innovation}{May. 2022 - Aug. 2022}
-      {Embedded ML/AI Developer}{}
+      {Core Avionics}{May. 2022 - Aug. 2022}
+      {Embedded ML Inference Engineer}{}
       \resumeItemListStart
-        \resumeItem{Reverse engineered \textbf{Pytorch ONNX} \textit{MobileNetV2SSDLite} model and ported it to a safety-crtical \textbf{Vulkan} implementation using \textbf{C}, demoed at a trade conference}
-        \resumeItem{Designed and optimized compute shaders in \textbf{GLSL} to do \textit{softmax, leakyReLu, convTranspose2d, padding,} and various \textit{Blas} functions with data packing, with similar if not better performance than \textbf{Pytorch}}
+        \resumeItem{Implemented \textbf{Pytorch ONNX} \textit{MobileNetV2SSDLite} model in \textbf{Vulkan C} from scratch} 
+        \resumeItem{Wrote optimized \textbf{GLSL} shaders for deep learning inference on \textbf{AMD E9171} embedded GPU: \textit{softmax, leakyReLu, convTranspose2d, padding,} and various \textit{Blas} functions}
+        \resumeItem{Created a GPU-profiling tool to benchmark neural network inference operations}
         % \resumeItem{Expanded Core Avionics' safety-critical neural network inference engine to be compatible with Khronos' \textit{NNEF} specification}
-        \resumeItem{Researched segmented inference of CNNs to reduce memory cost on embedded systems}
+        \resumeItem{\textbf{Researched} performance optimizations of CNNs on GPUs}
       \resumeItemListEnd    
   \resumeSubHeadingListEnd
 
@@ -202,17 +204,33 @@
     %     \resumeItem{Implemented dropout and Adam optimization to reduce variance. Image normalizing layers were added within the model for ease of deployment}
     %   \resumeItemListEnd
 
+      % \resumeSubheading
+      % {Stockshark}{Dec. 2022}
+      % {Chess Application and Engine}{}
+      % \resumeItemListStart
+      %   \resumeItem{Worked on a team of 3 to create a chess application in \textbf{C++} with \textbf{object-oriented} design patterns, where users could play against others and various AIs}
+      %   \resumeItem{Created a chess engine using a hand-crafted evaluation function and minimax with alpha-beta pruning, playing at $\approx 1000$ ELO}
+      %   \resumeItemListEnd
+
       \resumeSubheading
-      {Stockshark}{Dec. 2022}
-      {Chess Application and Engine}{}
-      \resumeItemListStart
-        \resumeItem{Worked on a team of 3 to create a chess application in \textbf{C++} with \textbf{object-oriented} design patterns, where users could play against others and various AIs}
-        \resumeItem{Created a chess engine using a hand-crafted evaluation function and minimax with alpha-beta pruning, playing at $\approx 1000$ ELO}
-        \resumeItemListEnd
+        {TylerFish}{Dec. 2023 - Present}
+        {Neural Network Chess Engine}{}
+        \resumeItemListStart
+          \resumeItem{Creating a chess engine that does Monte Carlo Tree Search with a CNN for policy and board evaluation in \textbf{C++}, to be accelerated with \textbf{CUDA}}
+          \resumeItem{Currently implementing multi-threaded bitboard move generation}
+          \resumeItemListEnd
+
+        % \resumeSubheading
+        % {Ethereum Forecaster}{Feb. 2022}
+        % {RNN ETH-CAD Predictor}{}
+        % \resumeItemListStart
+        %   \resumeItem{Trained a stacked LSTM model in \textbf{TensorFlow} that predicted the 2022 crypto crash}
+        %   \resumeItem{Scraped and cleaned data off Yahoo Finance in \textbf{Python} using \textbf{Pandas}}
+        %   \resumeItemListEnd
 
     \resumeSubheading
       {Pokemon ML}{Sept. 2021}
-      {Neural Net from Scratch}{}
+      {Deep Learning from Scratch}{}
       \resumeItemListStart
         \resumeItem{Implemented CNN inference and training using only \textbf{Python} and \textbf{NumPy}}
         \resumeItem{Predicted whether Pokemon was grass-type with high validation accuracy}
