@@ -129,14 +129,20 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Programming Languages}{: C, C++, GLSL, Python, Bash, Agda, Racket, LaTeX} \\
-     \textbf{Technologies/Frameworks}{: CUDA, Vulkan, Pytorch, TensorFlow, NumPy} \\
+     \textbf{Programming Languages}{: C, C++, GLSL, Python, Bash, Agda, Racket, ARMv8, x86, MIPS, LaTeX} \\
+     \textbf{Technologies/Frameworks}{: CUDA, Vulkan, Pytorch, TensorFlow, NumPy, Pandas} \\
      \textbf{Developer Tools}{: Linux, VS Code, Visual Studio, Git, Juypter Notebook, Google Collab, Vim, JIRA} \\
      \textbf{Linguistic Languages}{: English, Mandarin, Japanese} \\
      }}
  \end{itemize}
  \vspace{-16pt}
 
+ %-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Waterloo}{Sep. 2021 - Apr. 2026}{Bachelor of Mathematics in Computer Science}{Waterloo, Canada}
+\resumeSubHeadingListEnd
 
 
 % -----------EXPERIENCE-----------
@@ -151,12 +157,12 @@
 %     \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
 %     \resumeItemListEnd
 
-\resumeSubheading{University of Waterloo, Faculty of Mathematics}{Sept. 2023 - Dec. 2023}{CS 246 TA (OOP in \textbf{C++})}{}
+\resumeSubheading{University of Waterloo, Faculty of Mathematics}{Sept. 2023 - Dec. 2023}{CS 246 Teaching Assistant (OOP in \textbf{C++})}{}
 \resumeItemListStart
-  \resumeItem{Migrated CS 246 \textbf{Linux} testing environment from \textbf{C++14} to \textbf{C++20}}
-  \resumeItem{Developed all scripts for automatic testing of assignments via \textbf{Bash}}
+  \resumeItem{Migrated CS 246 \textbf{Linux} testing environment from \textbf{C++14} to \textbf{C++20} and created \textbf{Python} scripts to fix code from common \textbf{C++20} compiler errors}
+  \resumeItem{Automated testing of assignments via \textbf{Bash} scripting, eliminating the need for handmarking}
   \resumeItem{Individually coordinated demoing and marking of the final project ($>$ 500 students)}
-  \resumeItem{Taught weekly tutorials to help students with \textbf{object-oriented programming} in \textbf{C++}}
+  \resumeItem{Supported students by teaching weekly tutorials on \textbf{object-oriented programming} and \textbf{C++}}
 \resumeItemListEnd
 
 
@@ -165,8 +171,8 @@
 {Embedded ML Inference Engineer}{}
 \resumeItemListStart
  \resumeItem{Augmented ComputeCore\texttrademark, a safety-critical neural network inference engine for embedded GPUs, to support parallel inference of neural network inference graphs in \textbf{Vulkan C}}
- \resumeItem{Analyzed \textbf{OpenVX} \& \textbf{MIGraphX} for inspiration in implementing safety-critical neural network inference engine}
- \resumeItem{Refactored \textbf{NNEF compiler} to support multiple dependencies in inference graph}
+ \resumeItem{Conducted in-depth analysis of \textbf{OpenVX} and \textbf{MIGraphX} to gain insights and inspiration for efficient implementations of neural network graph inference}
+ \resumeItem{Refactored \textbf{NNEF AI compiler} to support multiple dependencies per node in inference graph}
 \resumeItem{Utilized A/B testing with \textbf{Python} scripting to design optimized \textbf{GLSL} shaders for \textbf{AMD E9171} embedded GPU: \textit{Local Response Normalization, Concat, addN,} and \textit{maxPool2d}}
   \resumeItem{Added support for \textit{AlexNet, DenseNet, ResNet, InceptionNet} and \textit{Graph Neural Networks} to GPU-accelerated inference engine and debugged using \textbf{Pytorch}}
 \resumeItemListEnd    
@@ -176,11 +182,11 @@
       {Core Avionics}{May. 2022 - Aug. 2022}
       {Embedded ML Inference Engineer}{}
       \resumeItemListStart
-        \resumeItem{Implemented \textbf{Pytorch ONNX} \textit{MobileNetV2SSDLite} model in \textbf{Vulkan C} from scratch} 
-        \resumeItem{Wrote optimized \textbf{GLSL} shaders for deep learning inference on \textbf{AMD E9171} embedded GPU: \textit{softmax, leakyReLu, convTranspose2d, padding,} and various \textit{Blas} functions}
+        \resumeItem{Implemented \textbf{Pytorch ONNX} \textit{MobileNetV2SSDLite} model in \textbf{Vulkan C}, resulting in contract from Airbus} 
+        \resumeItem{Wrote optimized \textbf{GLSL} shaders for deep learning inference on \textbf{AMD E9171} embedded GPU: \textit{softmax, leakyReLu, convTranspose2d, padding,} and various \textbf{BLAS} functions}
         \resumeItem{Created a GPU-profiling tool to benchmark neural network inference operations}
         % \resumeItem{Expanded Core Avionics' safety-critical neural network inference engine to be compatible with Khronos' \textit{NNEF} specification}
-        \resumeItem{\textbf{Researched} performance optimizations of CNNs on GPUs}
+        \resumeItem{\textbf{Researched} performance optimizations of CNNs on GPUs, leading to a memory reduction of $\frac{1}{4}$}
       \resumeItemListEnd    
   \resumeSubHeadingListEnd
 
@@ -216,8 +222,8 @@
         {TylerFish}{Dec. 2023 - Present}
         {Neural Network Chess Engine}{}
         \resumeItemListStart
-          \resumeItem{Creating a chess engine that does Monte Carlo Tree Search with a CNN for policy and board evaluation in \textbf{C++}, to be accelerated with \textbf{CUDA}}
-          \resumeItem{Currently implementing multi-threaded bitboard move generation}
+          \resumeItem{Creating a chess engine that utilizes Monte Carlo Tree Search with a CNN for policy and board evaluation in \textbf{C++}, to be accelerated with \textbf{CUDA}}
+          \resumeItem{Currently implementing multi-threaded bitboard move generation in \textbf{C++}}
           \resumeItemListEnd
 
         % \resumeSubheading
@@ -232,18 +238,13 @@
       {Pokemon ML}{Sept. 2021}
       {Deep Learning from Scratch}{}
       \resumeItemListStart
-        \resumeItem{Implemented CNN inference and training using only \textbf{Python} and \textbf{NumPy}}
-        \resumeItem{Predicted whether Pokemon was grass-type with high validation accuracy}
+        \resumeItem{Implemented CNN inference and training using only \textbf{Pandas}, \textbf{Python} and \textbf{NumPy}}
+        \resumeItem{Utilized \textbf{L2 Regularization} to prevent overfitting}
         \resumeItemListEnd
     
   \resumeSubHeadingListEnd
 \vspace{-16pt}
-%-----------EDUCATION-----------
-\section{Education}
-\resumeSubHeadingListStart
-\resumeSubheading
-{University of Waterloo}{Sep. 2021 - Apr. 2026}{Bachelor of Computer Science}{Waterloo, Canada}
-\resumeSubHeadingListEnd
+
 % \textbf{University of Waterloo} \hfill \textbf{Sep. 2021 - Dec 2025} \\
 % \small \emph{Bachelor of Computer Science} \hfill \emph{Waterloo, Canada}
 % \normalsize
@@ -289,7 +290,7 @@
 
 \section{Volunteering}
 \resumeSubHeadingListStart
-\resumeSubheading{Mentouring the Stars}{Jan. 2023 - Present}{Providing no-cost academic support in mathematics for secondary students on Zoom}{}
+\resumeSubheading{Mentoring the Stars}{Jan. 2023 - Present}{Providing no-cost tutoring in mathematics for secondary students on Zoom}{}
 \resumeSubHeadingListEnd
 
 
